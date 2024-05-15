@@ -6,10 +6,10 @@ const Sobre = () => (
   <section>
     <Titulo fontSize={16}>Sobre mim</Titulo>
     <Paragrafo>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
-      reiciendis repellat voluptatum iste maxime quidem obcaecati placeat
-      voluptatem dicta! Molestiae pariatur vel at placeat ad assumenda, ex
-      fugit? Odio, alias.
+      Olá, me chamo Douglas e sou Desenvolvedor Full Stack. Estou todos os dias
+      aprimorando o que já aprendi e buscando novas ferramentas. Cursando ADS no
+      IFRS, progredindo no curso da EBAC e buscando uma oportunidades no mercado
+      de trabalho.
     </Paragrafo>
     <GithubSecao>
       <img src="https://github-readme-stats.vercel.app/api?username=DGzzzzz&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />

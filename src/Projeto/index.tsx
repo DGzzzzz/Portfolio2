@@ -1,13 +1,33 @@
 import Paragrafo from '../components/Paragrafo'
 import Titulo from '../components/Titulo'
-
 import { Card, LinkBotao } from './styles'
 
-const Projeto = () => (
+interface ProjetoProps {
+  titulo: string
+  descricao: string
+  githubLink?: string
+  vercelLink?: string
+}
+
+const Projeto: React.FC<ProjetoProps> = ({
+  titulo,
+  descricao,
+  githubLink,
+  vercelLink
+}) => (
   <Card>
-    <Titulo>Projeto Lista de tarefas</Titulo>
-    <Paragrafo tipo="secundario">Lista de tarefas com vueJS</Paragrafo>
-    <LinkBotao>Visualizar</LinkBotao>
+    <Titulo>{titulo}</Titulo>
+    <Paragrafo tipo="secundario">{descricao}</Paragrafo>
+    {githubLink && (
+      <a target="blank_" href={githubLink}>
+        <LinkBotao>Gihub</LinkBotao>
+      </a>
+    )}
+    {vercelLink && (
+      <a target="blank_" href={vercelLink}>
+        <LinkBotao>Vercel</LinkBotao>
+      </a>
+    )}
   </Card>
 )
 
