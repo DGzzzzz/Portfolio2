@@ -12,7 +12,7 @@ const Projetos = () => (
           titulo="Timer Aniversário"
           descricao="Programado um timer com JavaScript que calcula o tempo que falta para o meu aniversário."
           githubLink="https://github.com/DGzzzzz/aniverTime"
-          vercelLink="https://aniver-time-eqee20utl-dgzzzzzs-projects.vercel.app/"
+          vercelLink="https://aniver-time.vercel.app/"
         ></Projeto>
       </li>
       <li>
@@ -20,7 +20,7 @@ const Projetos = () => (
           titulo="Buscador de Usuário do Github"
           descricao="Feito um site que busca o usuário no github e exibe seus repositórios públicos."
           githubLink="https://github.com/DGzzzzz/github_perfil"
-          vercelLink="https://dg-github-perfil-5hspk6zwa-dgzzzzzs-projects.vercel.app/"
+          vercelLink="https://dg-github-perfil.vercel.app/"
         ></Projeto>
       </li>
       <li>
