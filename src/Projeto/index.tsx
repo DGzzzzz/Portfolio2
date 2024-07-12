@@ -20,7 +20,7 @@ const Projeto: React.FC<ProjetoProps> = ({
     <Paragrafo tipo="secundario">{descricao}</Paragrafo>
     {githubLink && (
       <a target="blank_" href={githubLink}>
-        <LinkBotao>Gihub</LinkBotao>
+        <LinkBotao>Github</LinkBotao>
       </a>
     )}
     {vercelLink && (
