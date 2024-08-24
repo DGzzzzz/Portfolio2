@@ -1,13 +1,17 @@
 # Projeto Portfolio
+
 Desenvolvido Portfolio com a biblioteca React.
 
 # Tecnologias Utilizadas
+
 - React
 - TypeScript
 - Styled Components
 
 ## Como Rodar o Projeto
+
 Para rodar este projeto localmente, siga os seguintes passos:
+
 1. Clone o repositório para a sua máquina local usando `git clone`.
 
 2. Navegue até a pasta do projeto usando `cd nome-da-pasta`.
