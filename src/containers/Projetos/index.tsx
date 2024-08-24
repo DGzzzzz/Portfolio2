@@ -9,10 +9,10 @@ const Projetos = () => (
     <Lista>
       <li>
         <Projeto
-          titulo="Timer Aniversário"
-          descricao="Programado um timer com JavaScript que calcula o tempo que falta para o meu aniversário."
-          githubLink="https://github.com/DGzzzzz/aniverTime"
-          vercelLink="https://aniver-time.vercel.app/"
+          titulo="Efood"
+          descricao="E-commerce de comida, desenvolvido com React, Redux, styled-components e typescript."
+          githubLink="https://github.com/DGzzzzz/efood.git"
+          vercelLink="https://dg-efood.vercel.app/"
         ></Projeto>
       </li>
       <li>
@@ -25,16 +25,16 @@ const Projetos = () => (
       </li>
       <li>
         <Projeto
-          titulo="CRUD com MySQL"
-          descricao="Feito um CRUD, simulando uma agenda de contatos com Java e configurado o banco de dados no MySQL."
-          githubLink="https://github.com/DGzzzzz/CRUD_MySQL"
+          titulo="TDD com PostgreSQL"
+          descricao="Aplicação Java para cadastro de clientes e produtos, utilizando um banco de dados PostgreSQL. "
+          githubLink="https://github.com/DGzzzzz/projeto_jdbc.git"
         ></Projeto>
       </li>
       <li>
         <Projeto
-          titulo="CRUD com Swing"
-          descricao="Feito um CRUD, simulando um cadastro de cliente. Utilizada Java e a biblioteca Swing para interface gráfica."
-          githubLink="https://github.com/DGzzzzz/Cliente_CRUD_Swing"
+          titulo="Agenda"
+          descricao="Aplicação web para cadastro de contatos, desenvolvida com React, Redux, styled-components e typescript."
+          githubLink="https://github.com/DGzzzzz/Agenda-react.git"
         ></Projeto>
       </li>
     </Lista>
