@@ -22,7 +22,7 @@ const Sidebar = (props: Props) => {
           DGzzzzz
         </Paragrafo>
         <Descricao tipo="principal" fontSize={12}>
-          Desenvolvedor Full Stack
+          {t('developer')}
         </Descricao>
         <Social
           href="https://www.linkedin.com/in/dg-developer/"
