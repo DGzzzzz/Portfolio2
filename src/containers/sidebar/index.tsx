@@ -31,6 +31,9 @@ const Sidebar = (props: Props) => (
       <Social href="https://github.com/DGzzzzz" target="_blank">
         <i className="ri-github-fill"></i>
       </Social>
+      <Social href="https://discord.gg/Zun2bDpMDU" target="_blank">
+        <i className="ri-discord-fill"></i>
+      </Social>
       <BotaoTema onClick={props.trocaTema}>Trocar tema</BotaoTema>
     </SidebarContainer>
   </aside>

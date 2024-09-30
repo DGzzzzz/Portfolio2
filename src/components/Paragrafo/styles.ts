@@ -4,6 +4,7 @@ import { Props } from '.'
 
 export const P = styled.p<Props>`
   font-size: ${(props) => (props.fontSize ? props.fontSize + 'px' : '14px')};
+  margin-bottom: 10px;
   color: ${(props) =>
     props.tipo === 'principal'
       ? props.theme.corPrincipal
