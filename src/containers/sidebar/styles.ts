@@ -34,3 +34,11 @@ export const SidebarContainer = styled.div`
     text-align: center;
   }
 `
+
+export const TogglesContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Espaço entre os botões */
+  margin-top: 20px;
+`

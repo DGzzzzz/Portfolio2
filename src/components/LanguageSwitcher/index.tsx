@@ -1,18 +1,26 @@
 import { useTranslation } from 'react-i18next'
+import { ToggleButton, ToggleCircle, ToggleContainer } from './styles'
+import { useState } from 'react'
 
 const LanguageSwitcher = () => {
   const { i18n } = useTranslation()
 
-  const changeLanguage = (lng: string) => {
-    console.log('lng', lng)
-    i18n.changeLanguage(lng)
+  const [isEnglish, setIsEnglish] = useState(i18n.language === 'en')
+
+  const toggleLanguage = () => {
+    const newLanguage = isEnglish ? 'pt' : 'en'
+    i18n.changeLanguage(newLanguage)
+    setIsEnglish(!isEnglish)
   }
 
   return (
-    <div>
-      <button onClick={() => changeLanguage('en')}>English</button>
-      <button onClick={() => changeLanguage('pt')}>Português</button>
-    </div>
+    <ToggleContainer onClick={toggleLanguage}>
+      <ToggleButton isActive={isEnglish}>
+        <ToggleCircle isActive={isEnglish}>
+          {isEnglish ? 'EN' : 'PT'}
+        </ToggleCircle>
+      </ToggleButton>
+    </ToggleContainer>
   )
 }
 

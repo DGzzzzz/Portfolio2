@@ -4,7 +4,13 @@ import LanguageSwitcher from '../../components/LanguageSwitcher'
 import Paragrafo from '../../components/Paragrafo'
 import Titulo from '../../components/Titulo'
 
-import { Descricao, BotaoTema, SidebarContainer, Social } from './styles'
+import {
+  Descricao,
+  BotaoTema,
+  SidebarContainer,
+  Social,
+  TogglesContainer
+} from './styles'
 
 type Props = {
   trocaTema: () => void
@@ -42,8 +48,10 @@ const Sidebar = (props: Props) => {
         <Social href="https://discord.gg/Zun2bDpMDU" target="_blank">
           <i className="ri-discord-fill"></i>
         </Social>
-        <BotaoTema onClick={props.trocaTema}>{t('change_theme')}</BotaoTema>
-        <LanguageSwitcher />
+        <TogglesContainer>
+          <BotaoTema onClick={props.trocaTema}>{t('change_theme')}</BotaoTema>
+          <LanguageSwitcher />
+        </TogglesContainer>
       </SidebarContainer>
     </aside>
   )
