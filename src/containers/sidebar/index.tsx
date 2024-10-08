@@ -14,6 +14,7 @@ import {
 
 type Props = {
   trocaTema: () => void
+  estaUsandoTemaDark: boolean
 }
 
 const Sidebar = (props: Props) => {
@@ -55,7 +56,13 @@ const Sidebar = (props: Props) => {
           <i className="ri-discord-fill"></i>
         </Social>
         <TogglesContainer>
-          <BotaoTema onClick={props.trocaTema}>{t('change_theme')}</BotaoTema>
+          <BotaoTema onClick={props.trocaTema}>
+            {props.estaUsandoTemaDark ? (
+              <i className="ri-moon-line"></i>
+            ) : (
+              <i className="ri-sun-line"></i>
+            )}
+          </BotaoTema>
           <LanguageSwitcher />
         </TogglesContainer>
       </SidebarContainer>

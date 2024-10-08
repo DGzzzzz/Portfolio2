@@ -16,10 +16,8 @@ export const Social = styled.a`
 export const BotaoTema = styled.button`
   border-radius: 12px;
   padding: 8px;
-  color: ${(props) => props.theme.corDeFundo};
-  font-size: 10px;
+  font-size: 14px;
   font-weight: bold;
-  background-color: ${(props) => props.theme.corPrincipal};
   cursor: pointer;
   margin-top: 20px;
 `
@@ -37,7 +35,7 @@ export const SidebarContainer = styled.div`
 
 export const TogglesContainer = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 10px; /* Espaço entre os botões */
   margin-top: 20px;
