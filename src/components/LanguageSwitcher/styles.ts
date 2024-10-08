@@ -7,7 +7,7 @@ export const ToggleContainer = styled.div`
   margin-top: 20px;
 `
 export const ToggleButton = styled.button<{ isActive: boolean }>`
-  width: 70px;
+  width: 50px;
   height: 30px;
   background-color: ${(props) => props.theme.corPrincipal};
   border-radius: 15px;
@@ -26,7 +26,7 @@ export const ToggleButton = styled.button<{ isActive: boolean }>`
 export const ToggleCircle = styled.div<{ isActive: boolean }>`
   width: 25px;
   height: 25px;
-  background-color: white;
+  background-color: ${(props) => props.theme.corDeFundo};
   border-radius: 50%;
   position: absolute;
   top: 2.5px;
@@ -36,5 +36,5 @@ export const ToggleCircle = styled.div<{ isActive: boolean }>`
   align-items: center;
   justify-content: center;
   font-size: 12px;
-  color: black;
+  color: ${(props) => props.theme.corPrincipal};
 `
