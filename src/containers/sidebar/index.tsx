@@ -37,6 +37,12 @@ const Sidebar = (props: Props) => {
           <i className="ri-linkedin-fill"></i>
         </Social>
         <Social
+          href="https://wa.me/5551996245171?text=Oi%2C%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar"
+          target="_blank"
+        >
+          <i className="ri-whatsapp-fill"></i>
+        </Social>
+        <Social
           href="https://www.instagram.com/douglas_winter96/?hl=pt-br"
           target="_blank"
         >
