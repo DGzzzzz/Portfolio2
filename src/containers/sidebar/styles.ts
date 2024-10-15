@@ -11,6 +11,11 @@ export const Social = styled.a`
   font-size: 18px;
   cursor: pointer;
   text-decoration: none;
+
+  @media (max-width: 768px) {
+    margin-right: 8px;
+    margin-left: 8px;
+  }
 `
 
 export const BotaoTema = styled.button`
@@ -39,4 +44,8 @@ export const TogglesContainer = styled.div`
   align-items: center;
   gap: 10px; /* Espaço entre os botões */
   margin-top: 20px;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
 `
