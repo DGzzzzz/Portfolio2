@@ -1,27 +1,16 @@
-# Projeto Portfolio
+# ☕ Projeto Portfolio
 
-Desenvolvido Portfolio com a biblioteca React.
+Este é o repositório do meu Portfólio Pessoal, onde apresento minhas habilidades, projetos e informações profissionais. O portfólio é uma aplicação web desenvolvida com React e TypeScript, exibindo meus projetos e conectando aos dados da API do GitHub para mostrar minhas contribuições públicas. Além disso, o projeto inclui uma sidebar com links para redes sociais, botão para alterar o tema e linguagem da página.
 
-# Tecnologias Utilizadas
+# 📖 Tecnologias Utilizadas
 
-- React
-- TypeScript
-- Styled Components
+- React: Biblioteca para construir a interface de usuário.
+- TypeScript: Superset de JavaScript que adiciona tipagem estática.
+- Styled-Components: Biblioteca para estilização com CSS-in-JS.
+- React-Router-Dom: Gerenciamento de rotas da aplicação.
+- i18next e react-i18next: Internacionalização da aplicação.
 
-## Como Rodar o Projeto
+# ⚒️ Funcionalidades
 
-Para rodar este projeto localmente, siga os seguintes passos:
-
-1. Clone o repositório para a sua máquina local usando `git clone`.
-
-2. Navegue até a pasta do projeto usando `cd nome-da-pasta`.
-
-3. Instale todas as dependências do projeto com `npm install`.
-
-4. Inicie o servidor de desenvolvimento com `npm start`.
-
-O projeto agora deve estar rodando em `http://localhost:3000`.
-
-## Contribuições
-
-Contribuições são sempre bem-vindas. Sinta-se à vontade para abrir uma issue ou fazer um pull request.
+- Altera tema entre light e dark
+- Altera linguagem da página entre PT-BR e EN.
